@@ -1,7 +1,14 @@
+# Assign values to the variables
 number1 = 10
 number2 = 5
-number1 = int(number1)
-number2 = int(number2)
-print("Addition of" number1 + number2 "is 15")
-print("Subtraction of" number1 - number2 "is 5")
-print("Multiplication of" number1 * number2 "is 5")
+
+# Perform arithmetic operations
+addition = number1 + number2
+subtraction = number1 - number2
+multiplication = number1 * number2
+
+# Print results in human-readable format
+print(f"Addition of {number1} and {number2} is {addition}")
+print(f"Subtraction of {number1} and {number2} is {subtraction}")
+print(f"Multiplication of {number1} and {number2} is {multiplication}")
+

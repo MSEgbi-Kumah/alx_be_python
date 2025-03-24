@@ -1,10 +1,13 @@
-# Define variables
-principal = 1000  # Principal amount in dollars
-rate = 0.05       # Annual interest rate as a decimal
-time = 3          # Time in years
+# Variables for Simple Interst Formula
+P = 1000
+R = 0.05
+T = 3
 
-# Calculate simple interest
-interest = principal * rate * time
+# Making Sure Variables are intergers
+I = int(P * R * T)
+P = int(1000.0)
+R = int(0.050)
+T = int(3.0)
 
-# Print the result
-print(f"The simple interest is: {interest}")
+#Performing Calculations and printing their results
+print('The simple interest is:', I)
